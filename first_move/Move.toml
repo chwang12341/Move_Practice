@@ -1,0 +1,10 @@
+[package]
+name = 'first_move'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+Sender = "0x64b10e14645e5c264d9fcdd0a7dd2b66191b99a8716f6fe13cd000f31b27acdf"
